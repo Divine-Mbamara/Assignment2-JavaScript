@@ -1,0 +1,51 @@
+/* align items to center and set a default background color */
+html {
+    background: powderblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* font */
+p,label,option,button{
+    font-family: "Margarine", serif;
+    font-weight: 400;
+}
+/* p styling */
+p{
+    margin: 50px;
+    color: #f8f8f8;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 5px rgba(0,0,0,.6);
+}
+/* add space between div elements */
+div{
+    margin: 20px;
+}
+/* input & select box styling */
+input, select{
+    border: solid 1.5px black;
+    width: 126px;
+    height: 25px;
+}
+input:hover, select:hover{
+    border: solid 2px black;
+}
+/* button styling */
+button{
+    width: 155px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 0 12px;
+    border: solid 2px black;
+}
+button:hover{
+    background: black;
+    color: powderblue;
+    font-size: .9em;
+}
+/* resize all images */
+img{
+    width: 450px;
+    height: 250px;
+    display: none;
+}
